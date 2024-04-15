@@ -1,7 +1,10 @@
 # Analysis of GHG Emissions due to Agriculture Production
 
 ## Overview: 
-This project aims to analyze worldwide emissions from agriculture as well as economic indicators to help environmental organizations reduce the negative impact of emissions on the environment.
+The production of agriculture and food involves the emission of greenhouse gases (GHG), which are responsible for the climate change. Environmental organizations constantly monitor the level of the emissions across all countries to make sure they comply with the regulations and to implement new policies where needed.
+
+## Objective:
+This project aims to analyze worldwide emissions from agriculture and establish the relationship between the emission levels and economic indicators to help environmental organizations implement new policies.
 
 ## Data: 
 The dataset contains global information on emissions, population, and macroeconomic indicators within the agricultural sector.
