@@ -36,7 +36,9 @@ All data was obtained from FAOSTAT – the statistics division of Food and Agric
 ## Exploratory Analysis:
 - Built a heatmap to check the correlation between all variables and created a pairplot to visualize the relationship between variables.
 - Made hypotheses based on the correlation findings:
+
 **First hypothesis:** Countries with large population release more emissions.
+
 **Second hypothesis:** Total GHG emisisons couse bigger temperature chenges in 4 years.
 - Built a linear regression model for Agriculture Gross Production Value and Total Emissions. This model was not a good fit for these variables, as the mean squared error was very large, and predicted results differed a lot from the actual ones, even though the R2 was 0.87.
 - Conducted cluster analysis:
