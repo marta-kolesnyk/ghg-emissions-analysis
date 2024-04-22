@@ -10,7 +10,8 @@ This project aims to analyze worldwide emissions from agriculture and establish 
 Initially 3 datasets were used for this project:
 - Greenhouse gas emissions
 - Temperature changes
-- Populatiion
+- Population
+
 Later on, data was enriched with the next datasets:
 - Agriculture production export and import
 - GDP (Gross Domestic Product)
