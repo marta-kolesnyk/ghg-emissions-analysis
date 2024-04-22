@@ -27,7 +27,8 @@ All data was obtained from FAOSTAT – the statistics division of Food and Agric
 - Datasets were checked for duplicates (none found), columns were checked for mixed-type data, and missing values. Records with missing values were removed as they were less than 5% of the dataset.
 - Descriptive statistics was calculated for each dataset and no unrealistic/unusual values were found.
 - The datasets were merged on three key columns: 'Country Code', 'Country', 'Year'. 
-- **CHALLENGE:** Categorical values were transposed into separate columns. Here is code snippets:
+
+  **CHALLENGE:** Categorical values were transposed into separate columns. Here is code snippets:
 ![Screenshot 2024-04-15 180344](https://github.com/marta-kolesnyk/ghg-emissions-analysis/assets/152204235/acd36e7d-f4f1-4c42-94b0-b9e0a4b6746d)
 ![Screenshot 2024-04-15 180441](https://github.com/marta-kolesnyk/ghg-emissions-analysis/assets/152204235/3ab489b7-22dd-4ed1-a0d6-69cc6f37fa79)
 ![Screenshot 2024-04-15 180459](https://github.com/marta-kolesnyk/ghg-emissions-analysis/assets/152204235/9df18173-2036-4529-b4dc-a8e15917f6cb)
