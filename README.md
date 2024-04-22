@@ -42,7 +42,8 @@ All data was obtained from FAOSTAT – the statistics division of Food and Agric
 **First hypothesis:** Countries with large population release more emissions.
 
 **Second hypothesis:** Total GHG emisisons couse bigger temperature chenges in 4 years.
-**CHALLENGE:**Testing this hypothesis would require emissions data for more than 20 years, or monthly data, to have more records for the analysis. Due to the time constrain and data limitation, I didn't proceed with this hypothesis.
+
+**CHALLENGE:** Testing this hypothesis would require emissions data for more than 20 years, or monthly data, to have more records for the analysis. Due to the time constrain and data limitation, I didn't proceed with this hypothesis.
 
 - Built a linear regression model for Agriculture Gross Production Value and Total Emissions. This model was not a good fit for these variables, as the mean squared error was very large, and predicted results differed a lot from the actual ones, even though the R2 was 0.87.
 - Conducted cluster analysis:
