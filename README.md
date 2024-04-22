@@ -16,7 +16,8 @@ Later on, data was enriched with the next datasets:
 - Agriculture production export and import
 - GDP (Gross Domestic Product)
 - Gross production value of agriculture
- 
+
+Datasets contain yearly data from 2002 to 2021 for all countries.
 All data was obtained from FAOSTAT – the statistics division of Food and Agriculture Organization of the United Nations (FAO), and is available here: https://www.fao.org/faostat/en/#data.
 
 **Data cleaning and analysis was conducted using Python programming language in Jupyter Notebook.**
@@ -40,6 +41,8 @@ All data was obtained from FAOSTAT – the statistics division of Food and Agric
 **First hypothesis:** Countries with large population release more emissions.
 
 **Second hypothesis:** Total GHG emisisons couse bigger temperature chenges in 4 years.
+**CHALLENGE:**Testing this hypothesis would require emissions data for more than 20 years, or monthly data, to have more records for the analysis. Due to the time constrain and data limitation, I didn't proceed with this hypothesis.
+
 - Built a linear regression model for Agriculture Gross Production Value and Total Emissions. This model was not a good fit for these variables, as the mean squared error was very large, and predicted results differed a lot from the actual ones, even though the R2 was 0.87.
 - Conducted cluster analysis:
   - created a subset of a dataframe without categorical values
@@ -52,7 +55,10 @@ All data was obtained from FAOSTAT – the statistics division of Food and Agric
 ## Findings:
 - Countries can be grouped into tree clusters based on the macroeconomic and emission data: one cluster - China, second - U.S., India, China, third - other countries.
 - Countries from the first two clusters are in the list of top-10 countries by GHG emissions.
-- Countries with higher GDP per capita show decreasing trend in emission amount.
+- Among top-10 world GHG emitters, countries with higher GDP per capita show decreasing trend in emission amount, while those with lower GDP per capita, produce more emissions every year. The main focus should be on these countries.
+
+## Challenge:
+70% of the analysis time was dedicated to data collection and cleaning procedures. Monthly data on emisisons would be useful to build a forecast model for the emissions, but obtaining this data would be time and cost consuming.
 
 ## Project Deliverables:
 - Tableau Storyboard
